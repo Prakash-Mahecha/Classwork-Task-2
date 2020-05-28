@@ -1,0 +1,47 @@
+/* Position:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+*/
+#header{
+    text-align: center;
+    position: static;
+    background-color:blue;
+    color: blanchedalmond;
+    margin: 0 auto;
+}
+
+#nav{
+    max-width: 100%;
+    background: #ccc;
+    margin: 0px auto;
+    padding: 15px;
+    position: sticky;
+    top: 90px;
+}
+
+#nav ul{
+    white-space: nowrap;
+}
+
+#nav li{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#contact-section{
+    background: rgb(221, 153, 153);
+}
+
+.contact-method{
+    width:33%;
+    display:inline-block;
+    white-space: nowrap;
+}
